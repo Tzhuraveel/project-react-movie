@@ -40,10 +40,14 @@
 
 
 
+
 .app{
   min-height: 100vh;
   background-color: var(--colorBody);
 }
+
+
+
 
 body {
   background-color: var(--colorBody);

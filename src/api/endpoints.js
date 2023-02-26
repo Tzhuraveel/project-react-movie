@@ -8,7 +8,6 @@ const urls = {
     topRated: `${movie}/top_rated`,
     searchedMovie: `/search/movie`,
     movieById: (id) => `${movie}/${id}`,
-    movieVideo: (id) => `${movie}/${id}/videos`,
     images: (id) => `/${movie}/${id}/images`,
 
 

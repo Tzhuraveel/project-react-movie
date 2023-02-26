@@ -45,7 +45,13 @@
 .bookMark{
     color: red;
     width: 25px;
+    cursor: pointer;
 }
+
+.bookMark:hover{
+    color: var(--colorButtonResetHover);
+}
+
 .title > h3{
     color: var(--color-text);
     cursor: pointer;

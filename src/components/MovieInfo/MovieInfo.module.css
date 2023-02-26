@@ -85,5 +85,9 @@
     height: 1px;
 }
 .additionalInfo{
+    margin: 2px 0;
+    font-weight: 700;
+    color: var(--color-text);
+    text-transform: uppercase;
 }
 

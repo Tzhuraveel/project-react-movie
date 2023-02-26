@@ -12,4 +12,4 @@ export * from './PosterPreview/PosterPreview';
 export * from './SearchMovie/SearchMovie';
 export * from './SliderMovies'
 export * from './StarsRating/StarsRating';
-export * from './SavedMovie/SavedMovie.css';
+export * from './SavedMovie/savedMovie.css';

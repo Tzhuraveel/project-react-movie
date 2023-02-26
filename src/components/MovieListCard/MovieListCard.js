@@ -18,15 +18,19 @@ const MovieListCard = ({movie}) => {
     }
 
     const saveMovie = (movie) => {
+
         let savedMovie = JSON.parse(moviesRequest.getSavedMovie('savedMovie'));
-        console.log(savedMovie)
 
-        if(savedMovie?.find(value => value === movie)){
-            moviesRequest.setSavedMovie(savedMovie.push(movie))
+        if(Array.isArray(savedMovie) && !savedMovie.find(value => value.id === movie.id)){
+            savedMovie.push(movie)
+            moviesRequest.setSavedMovie(savedMovie)
+        }else if(Array.isArray(savedMovie)){
         }else{
-
+            moviesRequest.setSavedMovie([movie])
         }
-    }
+
+    };
+
 
     const navigate = useNavigate();
 
@@ -41,9 +45,7 @@ const MovieListCard = ({movie}) => {
                 <div className={css.detailsMovie}>
                     <div className={css.title}>
                         <h3 onClick={() => navigate(`/details/${id}`)}>{title}</h3>
-                            <button onClick={() => saveMovie(movie)} className={css.bookMark}>
-                                <BookmarkIcon/>
-                            </button>
+                        <BookmarkIcon onClick={() => saveMovie(movie)} className={css.bookMark}/>
                     </div>
                     <div>
                         <GenreBadge genresMovie={genre_ids}/>

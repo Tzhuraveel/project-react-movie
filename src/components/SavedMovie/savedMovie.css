@@ -12,7 +12,7 @@
 
 .modal{
     padding: 20px;
-    width: 800px;
+    width: 700px;
     height: 500px;
     background-color: var(--bg-color);
 }
@@ -28,6 +28,10 @@
     color: var(--сolor-badge);
 }
 .savedMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
     margin-top: 20px;
     background-color: var(--colorBody);
     height: 400px;
@@ -51,5 +55,43 @@
     background-color: var(--colorButtonResetHover);
     border-radius: 9em;
 }
+.containerMovie{
+    cursor: pointer;
+    width: 95%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
 
+    background-color: var(--bg-color);
+}
+.containerMovie:hover{
+    box-shadow: var(--shadow-card);
+}
+
+.savedMoviePoster{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.savedMoviePoster > img{
+    width: 50px;
+    margin-right: 10px;
+}
+.infoSavedMovie{
+    color: var(--color-text);
+    font-family: "Rubik", serif;
+    font-size: 20px;
+}
+.containerTitleAndIcon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.xMarkIcon{
+    cursor: pointer;
+    color: var(--color-text);
+    width: 20px;
+    height: 20px;
+}
 

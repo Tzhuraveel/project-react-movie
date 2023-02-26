@@ -9,11 +9,11 @@ const moviesRequest = {
     getTopRatedMovies: () => axiosService.get(urls.topRated),
     getMovieById: (id) => axiosService.get(urls.movieById(id)),
     getGenresMovie: () => axiosService.get(urls.genres),
-    getVideoMovie: (id) => axiosService.get(urls.movieVideo(id)),
     getSearchedMovie: ({name, page}) => axiosService.get(urls.searchedMovie, {params: {query: name, page: page}}),
 
     setSavedMovie: (movie) => {
-        localStorage.setItem(savedMovie, JSON.stringify([movie]))
+
+        localStorage.setItem(savedMovie, JSON.stringify(movie))
     },
 
     getSavedMovie: () => localStorage.getItem(savedMovie),

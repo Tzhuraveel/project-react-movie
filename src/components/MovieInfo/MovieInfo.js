@@ -21,6 +21,7 @@ const MovieInfo = () => {
 
     const {loading, movie} = useSelector(state => state.movie);
 
+
     const {
         genres,
         status,
@@ -105,9 +106,7 @@ const MovieInfo = () => {
                                 key={country.name}>{country.name}</span>)}
                         </p>
                     </div>
-                    <div className={css.certainInfo}>
-                        <h2 className={css.subTitle}>Video</h2>
-                    </div>
+
                 </div>
             </div>}
         </div>
