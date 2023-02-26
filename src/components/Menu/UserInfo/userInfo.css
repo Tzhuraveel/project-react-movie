@@ -1,0 +1,51 @@
+.containerProfile{
+    border: 2px solid var(--color-text);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-text);
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+    font-family: "Rubik", serif;
+}
+
+.openProfile{
+    padding: 10px;
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    top: 40px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: var(--colorBody);
+    box-shadow: var(--shadow-header);
+    border-radius: 4px;
+    border: var(--colorButtonResetHover) solid 2px;
+}
+.info > img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.openProfile > h3 {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.bookMark{
+    width: 15px;
+    color: var(--colorTitle);
+}
+.saved{
+    cursor: pointer;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

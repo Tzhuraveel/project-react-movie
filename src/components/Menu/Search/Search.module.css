@@ -1,0 +1,56 @@
+.searchBlock{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBlock:hover > .searchMovie{
+    width: 240px;
+}
+
+.searchBlock:hover > .blockIconSearch{
+    background-color: var(--colorTitle);
+}
+
+.darkMode .searchBlock:hover > .blockIconSearch{
+    background-color: silver;
+}
+
+
+
+.blockIconSearch:active > .iconSearch{
+    width: 25px;
+    height: 25px;
+    color: #d7d6d6;
+}
+
+
+
+.blockIconSearch{
+    background-color: var(--color-search);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.4s;
+}
+.iconSearch{
+    transition: 0.4s;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+.searchMovie {
+    font-family: "Rubik", serif;
+    color: var(--color-text);
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0;
+}

@@ -1,0 +1,18 @@
+
+.containerPagination{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.buttonPagination {
+    font-family: "Rubik", serif;
+    text-transform: uppercase;
+    width: 120px;
+    margin-right: 20px;
+    height: 25px;
+    background-color: var(--color-button-pagination);
+}
+.buttonPagination:hover{
+    background-color: var(--color-button-pagination-hover);
+}

@@ -1,0 +1,10 @@
+.blockLimit{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.containerWebSite{
+    transition: 0.3s;
+}
+
+

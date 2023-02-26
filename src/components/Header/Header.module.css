@@ -1,0 +1,36 @@
+.containerMenu{
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.blockLimiter{
+    padding: 0 10px;
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fixedMenu {
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    box-shadow: var(--shadow-header);
+    display: flex;
+    background-color: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
+
+.blockMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    min-width: 400px;
+}

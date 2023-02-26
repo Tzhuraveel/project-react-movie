@@ -1,0 +1,24 @@
+@import "@fontsource/bungee-shade";
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 350px;
+}
+
+.logo > a {
+    font-family: "Bungee Shade", serif;
+    font-size: 25px;
+    letter-spacing: 0.4em;
+}
+
+
+.blackLetter{
+    color: var(--color-text);
+}
+
+.redLetter{
+    color: var(--colorTitle);
+}
+

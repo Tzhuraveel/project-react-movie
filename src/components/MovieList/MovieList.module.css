@@ -1,0 +1,10 @@
+.containerAllMovie{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hr{
+    margin-bottom: 20px;
+    background-color: var(--colorTitle);
+    height: 1px;
+}

@@ -1,0 +1,61 @@
+:root {
+  --title-card-hover: red;
+  --colorTitle: red;
+  --bg-color: white;
+  --colorBody: whitesmoke;
+  --color-search: whitesmoke;
+  --color-text: black;
+  --shadow-mini-menu: 0 0 10px 1px #ececec;
+  --shadow-header: 0 0 10px 1px #ececec;
+  --calendarColor: cornflowerblue;
+  --shadow-card: 0 0 10px 1px #b0afaf;
+  --сolor-badge: black;
+  --color-button-pagination: silver;
+  --color-button-pagination-hover: #9b9b9b;
+  --color-badge-hover: #c82424;
+  --colorButtonSearch: #589558;
+  --colorButtonSearchHover: #477247;
+  --colorButtonResetHover: #c82424;
+}
+
+.dark{
+  --color-button-pagination: #6f6b6b;
+  --color-button-pagination-hover: #8d8989;
+  --colorButtonResetHover: #942222;
+  --colorButtonSearchHover: #3c3b3b;
+  --colorButtonSearch: #2f2f2f;
+  --title-card-hover: #d3cccc;
+  --colorBody: #2f2f2f;
+  --color-badge-hover: #6f6b6b;
+  --colorTitle: #958e8e;
+  --color-text: #958e8e;
+  --color-search: #958e8e;
+  --сolor-badge: #2f2f2f;
+  --bg-color: #232323;
+  --shadow-mini-menu: 0 0 10px 1px #353131;
+  --shadow-header: 0 0 10px 1px #2a2525;
+  --calendarColor: #958e8e;
+  --shadow-card: 0 0 10px 1px #4d4646;
+}
+
+
+
+.app{
+  min-height: 100vh;
+  background-color: var(--colorBody);
+}
+
+body {
+  background-color: var(--colorBody);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

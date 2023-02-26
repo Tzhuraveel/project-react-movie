@@ -1,0 +1,24 @@
+.searchMovieByGenre{
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--color-text);
+    font-size: 40px;
+    font-family: "Rubik", serif;
+}
+.containerMovieByGenre{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hr{
+    margin-bottom: 20px;
+    background-color: var(--colorTitle);
+    height: 1px;
+}
+.fault{
+    text-align: center;
+    margin-bottom: 17px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--colorButtonResetHover);
+}

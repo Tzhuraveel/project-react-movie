@@ -1,0 +1,84 @@
+.containerGenre{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.linkGenre{
+    margin-bottom: 5px;
+    border-right: 20px;
+}
+.linkGenre > span{
+    cursor: pointer;
+    color: var(--color-text);
+    position: relative;
+    font-size: 12px;
+
+}
+.wrapperSelectedGenre{
+
+}
+
+.linkGenre > span:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--colorTitle);
+    content: "";
+    transition: width 0.3s ease-out;
+}
+.selectedGenre{
+    font-family: "Berlin Sans FB", serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.genre{
+    margin: 2px;
+    padding: 2px;
+    background-color: var(--colorTitle);
+    color: var(--сolor-badge);
+    font-size: 10px;
+}
+
+.linkGenre > span:hover:after{
+    width: 100%;
+}
+.wrapperButton > hr{
+    background-color: var(--color-badge-hover);
+    height: 1px;
+    margin: 7px 0;
+}
+.wrapperButton{
+}
+
+.buttonSearch,
+.buttonReset{
+    transition: 0.2s;
+    text-transform: uppercase;
+    width: 100px;
+    height: 26px;
+}
+
+.buttonSearch{
+    margin-right: 10px;
+    background-color: var(--colorButtonSearch);
+}
+.buttonSearch:hover{
+    background-color: var(--colorButtonSearchHover);
+}
+.buttonReset:hover{
+    background-color: var(--colorButtonResetHover);
+}
+
+.buttonReset
+{
+    background-color: red;
+}
+
+
+

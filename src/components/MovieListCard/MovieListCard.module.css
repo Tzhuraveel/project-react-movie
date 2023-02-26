@@ -1,0 +1,106 @@
+.blockCard {
+    transition: 0.3s;
+    background-color: var(--bg-color);
+    width: 675px;
+    min-height: 300px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rubik", serif;
+}
+
+.blockCard:hover{
+    box-shadow: var(--shadow-card);
+}
+.data{
+    color: var(--color-text);
+}
+
+
+.blockPosterMovie > img{
+    cursor: pointer;
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 0;
+    border-radius: 0;
+}
+
+.blockDetailInformation{
+    padding: 10px;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bookMark{
+    color: red;
+    width: 25px;
+}
+.title > h3{
+    color: var(--color-text);
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.title > h3:hover{
+    color: var(--title-card-hover);
+}
+
+
+
+.detailsMovie > p {
+    color: var(--color-text);
+    margin-top: 15px;
+    font-size: 16px;
+}
+.starsRating >  hr{
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-text);
+}
+
+.starsRating{
+    width: 100%;
+}
+
+.posterTopMovie{
+    width: 100px;
+}
+.genreBadge{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+}
+
+
+.release{
+    text-align: center;
+    align-items: flex-end;
+    display: flex;
+    margin-right: 10px;
+}
+
+.calendar{
+    margin-right: 5px;
+    width: 18px;
+    color: var(--calendarColor);
+}
+
+.genres{
+    display: flex;
+    align-items: flex-end;
+}
+
