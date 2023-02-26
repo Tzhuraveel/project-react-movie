@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import css from './Genres.module.css';
 import {genreActions} from "../../redux";
 
+
 const Genres = () => {
 
     const dispatch = useDispatch();
