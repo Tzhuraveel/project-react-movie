@@ -1,7 +1,7 @@
 import {useSelector} from "react-redux";
 import {Navigate, Route, Routes} from "react-router-dom";
 
-import {HomePage, MovieInfoPage, MoviesByGenrePage, MoviesPage, SearchMoviePage} from "./pages";
+import {HomePage, MovieInfoPage, MoviesByGenrePage, MoviesPage, NotFoundPage, SearchMoviePage} from "./pages";
 import {MainLayout} from "./layouts/MainLayout/MainLayout";
 
 const App = () => {
@@ -22,6 +22,8 @@ const App = () => {
                     </Route>
 
                     <Route path={'/details/:id'} element={<MovieInfoPage/>}/>
+
+                    <Route path={'*'} element={<NotFoundPage/>}/>
                 </Route>
             </Routes>
         </div>

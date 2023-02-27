@@ -1,0 +1,9 @@
+.containerNotFound{
+    font-family: "Rubik", serif;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+

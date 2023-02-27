@@ -13,3 +13,4 @@ export * from './SearchMovie/SearchMovie';
 export * from './SliderMovies'
 export * from './StarsRating/StarsRating';
 export * from './SavedMovie/savedMovie.css';
+export * from './NotFound/NotFound';
